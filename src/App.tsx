@@ -1,5 +1,5 @@
 import './App.css'
-import {TextField} from "./components/text-field/text-field.tsx";
+import {TextField} from "./components";
 
 function App() {
 
