@@ -19,7 +19,7 @@ export function TextField({onChange, value, title}: Props) {
   return (
     <div className={s.wrapper}>
       <h4>{title}</h4>
-      <input type="number" onChange={onChangeHandle} value={value} placeholder={'write...'}/>
+      <input min={0} type="number" onChange={onChangeHandle} value={value} placeholder={'write...'}/>
     </div>
   );
 }
